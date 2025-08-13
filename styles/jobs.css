@@ -1,0 +1,58 @@
+.jobs {
+  padding-top: 57px;
+  text-align: center;
+  background-color: var(--gray-500);
+  height: 100%;
+}
+
+.jobs h2 {
+  font: var(--subtile);
+  color: var(--red);
+  margin-bottom: 8px;
+}
+
+.jobs h3 {
+  font: var(--title-md);
+  color: var(--gray-100);
+  padding-bottom: 56px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1040px;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--gray-400);
+  width: 330px;
+  height: 280px;
+}
+
+.card img {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h4 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+  text-align: justify;
+}

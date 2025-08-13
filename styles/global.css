@@ -35,3 +35,7 @@
 body {
   font: var(--text-sm);
 }
+
+a {
+  text-decoration: none;
+}
