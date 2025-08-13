@@ -1,0 +1,5 @@
+#intro {
+    background-image: url('../assets/images/Background_Intro.png');
+    height: 100vh;
+    background-size: cover;
+}
