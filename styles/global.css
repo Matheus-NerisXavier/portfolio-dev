@@ -31,3 +31,7 @@
   --text-md: 400 16px/140% var(--font-maven-pro);
   --text-sm: 400 14px/140% var(--font-maven-pro);
 }
+
+body {
+  font: var(--text-sm);
+}
