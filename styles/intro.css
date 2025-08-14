@@ -1,5 +1,49 @@
-#intro {
-    background-image: url('../assets/images/Background_Intro.png');
-    height: 100vh;
-    background-size: cover;
+main {
+  background-image: url('../assets/images/Background_Intro.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+#info {
+  max-width: 1040px;
+  margin: auto;
+  padding: 120px 163px 57px 163px;
+}
+
+.intro {
+  max-width: 680px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & img {
+    width: 87px;
+    height: 87px;
+    border-radius: 9999px;
+    object-fit: cover;
+    border: 2px solid var(--light-blue);
+    padding: 4.36px;
+  }
+
+  & p:nth-child(2) {
+    font: var(--subtitle);
+    color: var(--gray-200);
+    margin: 56px 0 8px;
+  }
+
+  & p:nth-child(2) span {
+    color: var(--light-blue);
+  }
+
+  & h1 {
+    font: var(--title-lg);
+    color: var(--gray-100);
+  }
+
+  & p:nth-child(4){
+    font: var(--text-sm);
+    color: var(--gray-300);
+    margin-top: 20px;
+  }
 }
