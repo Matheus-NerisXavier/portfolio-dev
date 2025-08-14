@@ -8,6 +8,7 @@ main {
   max-width: 1040px;
   margin: auto;
   padding: 120px 163px 57px 163px;
+  gap: 80px;
 }
 
 .intro {
@@ -52,4 +53,28 @@ main {
     color: var(--gray-300);
     margin-top: 20px;
   }
+}
+
+.skills {
+  margin-top: 80px;
+  gap: 16px;
+}
+
+.skill {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  background: var(--gray-400);
+  padding: 8px 16px;
+
+  & p {
+    font: var(--text-md);
+    color: var(--gray-200);
+  }
+}
+
+.down {
+  margin: 94px 0 57px;
+  text-align: center;
 }
