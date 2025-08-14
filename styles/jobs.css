@@ -1,0 +1,53 @@
+#jobs {
+  padding: 72px 120px 144px 120px;
+  background-color: var(--gray-500);
+  min-height: 100vh;
+  margin: auto;
+}
+
+.project-infos {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+
+  & p {
+    font: var(--subtitle);
+    color: var(--light-blue);
+    margin-bottom: 8px;
+  }
+}
+
+.cards {
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start; 
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  background-color: var(--gray-400);
+  padding: 12px;
+
+  & img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+  & h3 {
+    margin-top: 20px;
+    font: var(--title-sm);
+    color: var(--gray-100);
+  }
+
+  & p {
+    margin-top: 8px;
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+}
