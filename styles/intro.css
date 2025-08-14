@@ -19,8 +19,8 @@ main {
   align-items: center;
 
   & img:nth-child(1) {
-    width: 87px;
-    height: 87px;
+    width: 120px;
+    height: 120px;
     border-radius: 9999px;
     object-fit: cover;
     border: 2px solid var(--light-blue);
@@ -67,6 +67,11 @@ main {
   border-radius: 999px;
   background: var(--gray-400);
   padding: 8px 16px;
+
+  &:hover {
+    background-color: var(--light-blue);
+    text-transform: uppercase;
+  }
 
   & p {
     font: var(--text-md);

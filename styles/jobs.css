@@ -50,4 +50,13 @@
     font: var(--text-sm);
     color: var(--gray-200);
   }
+
+  &:hover {
+    opacity: 0.92;
+
+    & h3 {
+      color: var(--light-blue);
+      font-size: 18px;
+    }
+  }
 }
