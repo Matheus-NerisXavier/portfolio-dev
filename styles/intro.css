@@ -17,7 +17,7 @@ main {
   flex-direction: column;
   align-items: center;
 
-  & img {
+  & img:nth-child(1) {
     width: 87px;
     height: 87px;
     border-radius: 9999px;
@@ -26,13 +26,19 @@ main {
     padding: 4.36px;
   }
 
-  & p:nth-child(2) {
+  & img:nth-child(2) {
+    position: relative;
+    bottom: 30px;
+    left: 32px;
+  }
+
+  & p:nth-child(3) {
     font: var(--subtitle);
     color: var(--gray-200);
     margin: 56px 0 8px;
   }
 
-  & p:nth-child(2) span {
+  & p:nth-child(3) span {
     color: var(--light-blue);
   }
 
@@ -41,7 +47,7 @@ main {
     color: var(--gray-100);
   }
 
-  & p:nth-child(4){
+  & p:nth-child(5){
     font: var(--text-sm);
     color: var(--gray-300);
     margin-top: 20px;
