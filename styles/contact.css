@@ -27,3 +27,28 @@
   }
 }
 
+.networks {
+  max-width: 400px;
+  margin: 48px auto;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.network {
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: var(--gray-400);
+
+  & p {
+    width: 288px;
+    color: var(--gray-200);
+    font: var(--text-md);
+  }
+
+  &:hover {
+    border: 1px solid var(--light-blue);
+  }
+}
