@@ -1,6 +1,20 @@
 #services {
   background-color: var(--gray-600);
   padding: 88px 120px 120px 120px;
+
+  & p:nth-child(1) {
+    color: var(--light-blue);
+    font: var(--subtitle);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  & h3 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+
+
 }
 
 .services-info {
@@ -8,35 +22,23 @@
   margin: auto;
 }
 
-#services p:nth-child(1) {
-  color: var(--light-blue);
-  font: var(--subtitle);
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-#services h3 {
-  font: var(--title-md);
-  color: var(--gray-100);
-}
-
 .my-services {
   display: flex;
   gap: 24px;
   margin-top: 56px;
   justify-content: center;
-}
 
-.my-services h4 {
-  font: var(--title-sm);
-  color: var(--gray-100);
-  margin-top: 20px;
-}
+  & h4 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    margin-top: 20px;
+  }
 
-.my-services p {
-  font: var(--text-sm);
-  color: var(--gray-200);
-  margin-top: 8px;
+  & p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    margin-top: 8px;
+  }
 }
 
 .card-service {
@@ -44,4 +46,8 @@
   border: 2px solid var(--gray-500);
   padding: 20px;
   width: 280px;
+
+  &:hover {
+    border-color: var(--light-blue);
+  }
 }

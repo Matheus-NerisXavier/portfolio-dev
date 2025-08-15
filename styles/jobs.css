@@ -53,6 +53,8 @@
 
   &:hover {
     opacity: 0.92;
+    border: 1px solid var(--light-blue);
+    border-color: var(--light-blue);
 
     & h3 {
       color: var(--light-blue);
